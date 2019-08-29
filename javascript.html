@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Mi sitio con Java Script</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<header>
+</header>
+
+<body>
+
+
+<script>
+//Tipos de datos en JavaScript
+
+    //Numericos - float
+        var edad = 34;
+        console.log(edad);
+    //String - Cadena de texto
+        var nombre1 = "Carlos";
+        var nombre2 = "Alejandro";
+        var apellido = "Arias";
+        console.log(nombre1,nombre2,apellido);
+    //Arrays - Arreglo
+        var amigos = ["Ruben", "Josseline", "David", "Amilcar"];
+        console.log(amigos[0]);
+    //Objetos
+        var objecto = {
+            color:"Black",
+            size: 12
+        }
+        document.write(objecto,"<br>");
+    //Boolean - Boleanos
+        var boleano = true;
+        console.log(boleano);
+    //Undefined
+        var CarlosAArias;
+        console.log(CarlosAArias);
+    //Null
+        var numero2 = 10;
+        console.log(numero2);
+        var numero2 = null;
+        console.log(numero2);
+    //NaN
+        var texto2 = "Hola como estas?:";
+        document.write(texto2 * 2,"<br>");
+        console.log(texto2);
+    //Uso de for
+        var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes", "Sábado", "Domingo"]
+        for (i = 0; i<dias.length;i++){
+            document.write(dias[i],"<br>");
+        }
+
+        "<br>"
+        for (i=0;i<10;i++){
+            document.write("Ou my goodness"+"<br>");
+        }
+    //While
+       /* while(i>=10){
+            document.write("Esta pagina ha sido hackeada");
+        }  */
+    //Do while
+        i=0;
+        do{
+            document.write("Se tenia que decir y se dijo 100 veces!!!"+"<br>");
+            i++;
+        }while(i<100);
+</script>
+    
+
+</body>
+
+<footer>
+</footer>
+
+</html>
